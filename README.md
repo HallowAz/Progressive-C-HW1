@@ -28,4 +28,8 @@
 
 Для запуска программы необходимо собрать её с помощью cmake и вызвать make из корневой папки.
 
- Затем запустить исходник в формате ./hw1.exe test_artist test_gender *год* 
+ Затем запустить исходник в формате
+
+    ./hw1.exe --artistiFilename=static/test_artist genderFilename=static/test_gender year=*год* 
+
+ Порядок аргументов не важен
